@@ -16,16 +16,17 @@ body {
   padding: 0 26px;
 }
 
-nav {
-  padding-top: 36px;
+header {
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
+  padding-top: 36px;
+
   height: 111.62px;
 }
 
-nav h1 {
+header h1 {
   flex-grow: 1;
   font-size: 25.35px;
   margin: 0;
@@ -43,5 +44,9 @@ nav > a {
 }
 
 #intro-page {
-  background-image: url(./assets/bg_img.png);
+  background-image: url(./assets/home-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 350px;
 }
