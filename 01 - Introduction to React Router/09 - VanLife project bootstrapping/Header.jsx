@@ -2,11 +2,13 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav>
+    <header>
       <h1>#VANLIFE</h1>
-      <Link to="/about">About</Link>
-      <Link to="/products">Vans</Link>
-    </nav>
+      <nav>
+        <Link to="/about">About</Link>
+        <Link to="/products">Vans</Link>
+      </nav>
+    </header>
   );
 };
 export default Header;
