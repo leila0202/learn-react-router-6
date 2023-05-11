@@ -13,7 +13,8 @@ body {
 }
 
 #root {
-  padding: 0 26px;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
   align-items: center;
   align-content: center;
   justify-content: center;
-  padding-top: 36px;
+  padding: 36px 26px;
 
   height: 111.62px;
 }
@@ -44,9 +45,31 @@ nav > a {
 }
 
 #intro-page {
-  background-image: url(./assets/home-hero.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
+    url(/assets/home-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  min-height: 350px;
+  min-height: 386.7px;
+}
+#intro-content {
+  padding: 0 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+#intro-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: white;
+}
+
+#intro-content a {
+  background-color: #ff8c38;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15.95px;
+  padding: 10px;
+  text-align: center;
 }
